@@ -103,3 +103,14 @@ function ladoAleatorio() {
     }
 
 }
+
+function iniciarJogo() {
+    nivel = document.getElementById('nivel').value
+
+    if (nivel === '') {
+        alert('Selecione um nivel para iniciar o jogo')
+    } else {
+        window.location.href = "app.html?" + nivel
+    }
+
+}

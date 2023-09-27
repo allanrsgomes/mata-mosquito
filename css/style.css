@@ -2,6 +2,12 @@ body {
     cursor: url(../imagens/mata_mosquito.png) 30 30, auto;
     background-image: url(../imagens/bg.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .mosquito1 {
